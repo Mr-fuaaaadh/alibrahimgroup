@@ -1,0 +1,1228 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Al Ibrahim Groups - Industry & Factory " />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Al Ibrahim Groups</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.min.css' %}">
+    <!-- scrollbar -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/perfect-scrollbar.min.css' %}">
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.css' %}" />
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/themify-icons.css' %}" />
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/flaticon.css' %}" />
+    <!-- REVOLUTION LAYERS STYLES -->
+    <link rel='stylesheet' id='rs-plugin-settings-css' href="{% static 'revolution/css/rs6.css' %}">
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prettyPhoto.css' %}">
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/shortcodes.css' %}" />
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+    <!--Color Switcher Mockup-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/color-switcher.css' %}">
+    <!--Color Themes-->
+    <link id="switcher-color" href="{% static 'css/colors/theme-color1.css' %}" rel="stylesheet">
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}" />
+
+    <!-- Use only one Font Awesome version -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@2.40.0/iconfont/tabler-icons.min.css">
+
+</head>
+
+<body>
+    <!--page start-->
+    <div class="page">
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <header id="masthead" class="header ttm-header-style-infostack">
+            <div class="container">
+                <div class="ttm-header-top-wrapper clearfix">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="header-icon-box">
+                                <div class="icon-box">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="title-box">
+                                    <p>Call Us On:</p>
+                                    <h4>+966 551393901 </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="site-branding">
+                                <a class="home-link" href="{% url 'home' %}" title="Al Ibrahim Group" rel="home">
+                                    <img id="logo-img" class="img-center" src="{% static 'images/logo-1.png' %}" alt="logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="header-icon-box float-right">
+                                <div class="icon-box">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="title-box">
+                                    <p>Email</p>
+                                    <h4> info@alibrahimgroups.com</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ttm-stickable-header-w -->
+                <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
+                    <div id="site-header-menu" class="site-header-menu">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <!-- container -->
+                            <div class="container">
+                                <!--site-navigation -->
+                                <div id="site-navigation" class="site-navigation">
+                                    <div class="ttm-menu-toggle">
+                                        <input type="checkbox" id="menu-toggle-form" />
+                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                            <span class="toggle-block toggle-blocks-1"></span>
+                                            <span class="toggle-block toggle-blocks-2"></span>
+                                            <span class="toggle-block toggle-blocks-3"></span>
+                                        </label>
+                                    </div>
+                                    <nav id="menu" class="menu">
+                                        <ul class="dropdown">
+                                            <li class="active"><a href="{% url 'home' %}">
+                                                    Home</a>
+                                            </li>
+                                            <li class="active"><a href="{% url 'services' %}">
+                                                    service</a>
+                                            </li>
+                                            
+                                            <li><a href="{% url 'contact' %}">
+                                                    Contact us</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="ttm-rt-contact">
+                                    <div class="ttm-header-icons ">
+                                        <div class="ttm-header-icon ttm-header-search-link">
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                            <div class="ttm-search-overlay">
+                                                <form method="get" class="ttm-site-searchform" action="#">
+                                                    <div class="w-search-form-h">
+                                                        <div class="w-search-form-row">
+                                                            <div class="w-search-input">
+                                                                <input type="search" class="field searchform-s" name="s"
+                                                                    placeholder="Type Word Then Enter...">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ttm-custombutton">
+                                        <a href="{% url 'contact' %}">GET CONSULTING!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+        <!-- START mainslidercreativehomeslider REVOLUTION SLIDER 6.5.3 -->
+        <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="mainslider-creative-homeslider" data-source="gallery"
+            style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+            <rs-module id="rev_slider_1_1" style="" data-version="6.5.3">
+                <rs-slides>
+                    <rs-slide data-key="rs-1" data-title="Slide" data-thumb="revolution/assets/slider-bg-one-50x100.jpg"
+                        data-in="o:0;" data-out="a:false;">
+                        <img src="{% static 'revolution/assets/slider-bg-one.jpg' %}" title="slider-bg-one.jpg" width="1920"
+                            height="974" class="rev-slidebg tp-rs-img" data-no-retina>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:84px,84px,52px,42px;y:t,t,m,m;yo:367px,367px,-68px,-58px;"
+                            data-text="w:normal;s:70,70,43,30;l:70,70,43,30;fw:700;"
+                            data-padding="r:15,15,9,6;b:18,18,11,7;l:11,11,7,4;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:200;sp:1000;" data-frame_999="o:0;st:w;"
+                            style="z-index:13;font-family:Oswald;">Experiencing
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-2" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;y:t,t,m,m;yo:454px,454px,-8px,-15px;"
+                            data-text="w:normal;s:70,70,45,30;l:76,76,47,40;fw:700;a:center;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:290;sp:800;sR:290;" data-frame_999="o:0;st:w;sR:7910;"
+                            style="z-index:9;background-color: transparent;font-family:Oswald;">Amazing Industrial
+                            Business
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-3" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:-199px,-199px,-127px,-80px;y:t,t,m,m;yo:365px,365px,-71px,-60px;"
+                            data-text="w:normal;s:70,70,45,30;l:76,76,47,40;fw:700;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:200;sp:800;sR:200;" data-frame_999="o:0;st:w;sR:8000;"
+                            style="z-index:8;font-family:Oswald;">Start
+                        </rs-layer>
+                        <!--
+                     --><a id="slider-1-slide-1-layer-4" class="rs-layer" href="{% url 'contact' %}" target="_self"
+                            data-type="text" data-rsp_ch="on" data-xy="x:c;y:m;yo:180px,180px,67px,50px;"
+                            data-text="w:normal;s:14,14,14,12;l:14,14,14,12;fw:600;"
+                            data-padding="t:17,17,16,13;r:33,33,30,25;b:17,17,16,13;l:33,33,30,25;"
+                            data-border="bos:solid;boc:#fd972e;bow:1px,1px,1px,1px;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:540;sp:500;sR:540;" data-frame_999="o:0;st:w;sR:7960;"
+                            data-frame_hover="c:#fd972e;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;"
+                            style="z-index:10;font-family:Oswald;">GET CONSULTING!
+                        </a>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:0,0,560px,345px;y:b;yo:375px,375px,228px,140px;"
+                            data-text="w:normal;s:22,22,13,8;l:32,32,19,11;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:550;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:16;font-family:Oswald;text-transform:uppercase;">Surveying
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-7" data-type="shape" data-rsp_ch="on"
+                            data-xy="x:c;xo:84px,84px,582px,359px;y:m;yo:97px,97px,66px,40px;"
+                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                            data-dim="w:10px,10px,6px,3px;h:10px,10px,6px,3px;" data-border="bor:50px,50px,50px,50px;"
+                            data-frame_0="y:50,50,31,19;" data-frame_1="st:555;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:20;background-color:#ffffff;">
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-9" data-type="shape" data-rsp_ch="on"
+                            data-xy="x:c;xo:84px,84px,581px,358px;y:m;yo:97px,97px,66px,40px;"
+                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                            data-dim="w:22px,22px,13px,8px;h:22px,22px,13px,8px;" data-border="bor:50px,50px,50px,50px;"
+                            data-frame_0="y:50,50,31,19;" data-frame_1="st:555;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:18; background-color: rgba(255, 255, 255, 0.22);">
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:-170px,-170px,454px,280px;y:b;yo:376px,376px,229px,141px;"
+                            data-text="w:normal;s:22,22,13,8;l:32,32,19,11;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:450;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:14;font-family:Oswald;text-transform:uppercase;">Industrial
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-11" data-type="shape" data-rsp_ch="on"
+                            data-xy="x:c;xo:-84px,-84px,475px,293px;y:m;yo:97px,97px,72px,44px;"
+                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                            data-dim="w:22px,22px,13px,8px;h:22px,22px,13px,8px;" data-border="bor:50px,50px,50px,50px;"
+                            data-frame_0="y:50,50,31,19;" data-frame_1="st:460;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:17;background-color:rgba(255,255,255,0.22);">
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-12" data-type="shape" data-rsp_ch="on"
+                            data-xy="x:c;xo:-84px,-84px,476px,293px;y:m;yo:97px,97px,73px,45px;"
+                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
+                            data-dim="w:10px,10px,6px,3px;h:10px,10px,6px,3px;" data-border="bor:50px,50px,50px,50px;"
+                            data-frame_0="y:50,50,31,19;" data-frame_1="st:460;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:19;background-color:#ffffff;">
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-1-layer-13" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:170px,170px,666px,410px;y:b;yo:376px,376px,229px,141px;"
+                            data-text="w:normal;s:22,22,13,8;l:32,32,19,11;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:560;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:15;font-family:Oswald;text-transform:uppercase; ">Solutions.
+                        </rs-layer>
+                        <!--
+                     -->
+                    </rs-slide>
+                    <rs-slide data-key="rs-3" data-title="Slide" data-thumb="revolution/assets/slider-bg-two-50x100.jpg"
+                        data-in="o:0;" data-out="a:false;">
+                        <img src="{% static 'revolution/assets/slider-bg-two.jpg' %}" title="slider-bg-two" width="1920" height="974"
+                            class="rev-slidebg tp-rs-img" data-no-retina>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-3-layer-1" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:88px,88px,17px,22px;y:t,t,m,m;yo:367px,367px,-68px,-58px;"
+                            data-text="w:normal;s:70,70,43,30;l:70,70,43,30;fw:700;"
+                            data-padding="r:15,15,9,6;b:11,11,7,4;l:11,11,7,4;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:200;sp:1000;" data-frame_999="o:0;st:w;"
+                            style="z-index:12;font-family:Oswald;">Different
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-3-layer-2" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;y:t,t,m,m;yo:454px,454px,-8px,-15px;"
+                            data-text="w:normal;s:70,70,45,30;l:76,76,47,40;fw:700;a:center;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:290;sp:800;sR:290;" data-frame_999="o:0;st:w;sR:7910;"
+                            style="z-index:9;font-family:Oswald;">Think Industrial Business.
+                        </rs-layer>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-3-layer-3" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:-145px,-145px,-127px,-80px;y:t,t,m,m;yo:365px,365px,-71px,-60px;"
+                            data-text="w:normal;s:70,70,45,30;l:76,76,47,40;fw:700;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:200;sp:800;sR:200;" data-frame_999="o:0;st:w;sR:8000;"
+                            style="z-index:8;font-family:Oswald;">Think
+                        </rs-layer>
+                        <!--
+                     --><a id="slider-1-slide-3-layer-4" class="rs-layer" href="{% url 'contact' %}" target="_self"
+                            data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:-78px,-78px,0,0;y:m;yo:180px,180px,67px,50px;"
+                            data-text="w:normal;s:14,14,14,12;l:14,14,14,12;fw:600;"
+                            data-padding="t:17,17,16,13;r:33,33,30,25;b:17,17,16,13;l:33,33,30,25;"
+                            data-border="bos:solid;boc:#fd972e;bow:1px,1px,1px,1px;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:540;sp:500;sR:540;" data-frame_999="o:0;st:w;sR:7960;"
+                            data-frame_hover="c:#fd972e;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;"
+                            style="z-index:11;font-family:Oswald;">GET CONSULTING!
+                        </a>
+                        <!--
+                     -->
+                        <rs-layer id="slider-1-slide-3-layer-10" data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:0,0,633px,390px;y:b;yo:376px,376px,231px,142px;"
+                            data-text="w:normal;s:22,22,13,8;l:32,32,19,11;" data-frame_0="y:50,50,31,19;"
+                            data-frame_1="st:450;sp:500;" data-frame_999="o:0;st:w;"
+                            style="z-index:13;font-family:Oswald;text-transform:uppercase;">Quality Only Happens When
+                            you Care Enough To Do Your Best.
+                        </rs-layer>
+                        <!--
+                     --><a id="slider-1-slide-3-layer-14" class="rs-layer" href="{% url 'contact' %}" target="_self"
+                            data-type="text" data-rsp_ch="on"
+                            data-xy="x:c;xo:98px,98px,580px,340px;y:m;yo:180px,180px,67px,60px;"
+                            data-text="w:normal;s:14,14,14,12;l:14,14,14,12;fw:600;"
+                            data-padding="t:17,17,16,13;r:33,33,30,25;b:17,17,16,13;l:33,33,30,25;"
+                            data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;" data-frame_0="y:100%;"
+                            data-frame_1="e:power4.inOut;st:550;sp:500;sR:540;" data-frame_999="o:0;st:w;sR:7960;"
+                            data-frame_hover="c:#fd972e;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;"
+                            style="z-index:10;font-family:Oswald;text-transform:uppercase;">Contact Us
+                        </a>
+                        <!--
+                     -->
+                    </rs-slide>
+                </rs-slides>
+            </rs-module>
+        </rs-module-wrap>
+        <!-- END REVOLUTION SLIDER -->
+        <!--site-main start-->
+        <div class="site-main">
+            <!--row top section -->
+            <section class="ttm-row row-top-section ttm-bgcolor-grey clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="mt_180 res-991-mt_120  res-767-m-0 mb-20">
+                                <div class="row ">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <!-- featured-icon-box -->
+                                        <div class="featured-box style1">
+                                            <div class="featured-num">01 </div>
+                                            <div class="featured-icon">
+                                                <div class="featured-title">
+                                                    <h5>TRADING</h5>
+                                                </div>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Since its inception, al Ibrahim has maintained a significant presence
+                                                    in two industrial segments: Construction materials and industrial
+                                                    materials.</p>
+                                            </div>
+                                        </div>
+                                        <!-- featured-icon-box end-->
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mt-sm-4  mt-lg-0 mt-md-0 ">
+                                        <!-- featured-icon-box -->
+                                        <div class="featured-box style1">
+                                            <div class="featured-num">02 </div>
+                                            <div class="featured-icon">
+                                                <div class="featured-title">
+                                                    <h5>ENGINEERING & CONTRACTING</h5>
+                                                </div>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Al Ibrahim group specialty is in providing comprehensive design-build
+                                                    solutions to the industrial, commercial and institutional market.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- featured-icon-box end-->
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 mt-sm-4 mt-lg-0">
+                                        <!-- featured-icon-box -->
+                                        <div class="featured-box style1">
+                                            <div class="featured-num">03 </div>
+                                            <div class="featured-icon">
+
+                                                <div class="featured-title">
+                                                    <h5>OPERATION & MAINTENANCE</h5>
+                                                </div>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Operation and maintenance division which has experience throughout
+                                                    the full spectrum of the Industrial Construction & Maintenance...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- featured-icon-box end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                    <!-- row -->
+                    <!-- <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row-title mt-50 res-767-mt-30 ">
+                                <h2 class="title"> Trusted by 200+ Forward Thinking Companies </h2>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- row end -->
+                    <!-- row -->
+                    <!-- <div class="row">
+                        <div class="col-md-12"> -->
+                    <!-- ttm-client -->
+                    <!-- <div class="ttm-client clients-logo owl-carousel owl-theme owl-loaded">
+                                <div class="clients">
+                                    <img src="images/client/client02.png" alt="image">
+                                </div>
+                                <div class="clients">
+                                    <img src="images/client/client01.png" alt="image">
+                                </div>
+                                <div class="clients">
+                                    <img src="images/client/client03.png" alt="image">
+                                </div>
+                                <div class="clients">
+                                    <img src="images/client/client04.png" alt="image">
+                                </div>
+                                <div class="clients">
+                                    <img src="images/client/client05.png" alt="image">
+                                </div>
+                            </div> -->
+                    <!-- ttm-client end -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- row end -->
+                </div>
+            </section>
+            <!--row top section end -->
+            <!--About Section  -->
+            <section class="ttm-row welcome-section break-1199-colum ttm-bgcolor-white clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- about-img -->
+                            <div class="about-img about-1">
+                                <img class="img-fluid" src="{% static 'images/about-us1.jpg' %}" alt="about-img">
+                                <!-- image-overlay-content -->
+                            </div>
+                            <!-- about-img end -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-info pt-30 pl-10 res-991-pl-0 ">
+                                <!-- section title -->
+                                <div class="section-title clearfix">
+                                    <h5>ABOUT US</h5>
+                                    <h2>Welcome To Al Ibrahim Groups</h2>
+                                    <p>Al Ibrahim Groups located in Dammam, Saudi Arabia has been offering its services
+                                        to the Oil, Gas, Petrochemicals and Marine industries for years. We take immense
+                                        pleasure in introducing our establishment, with an intention to extend our
+                                        services and commitment to provide cost effective solutions to customers’ needs.
+                                        <br><br>
+                                        We are proud to be an established supplier to Oil and Gas refineries,
+                                        Petrochemicals, Electro-mechanical and associated engineering industries who
+                                        recognize our potential in supplying the highest quality of materials. Today we
+                                        take pride in saying that we have not only maintained our principles, but also
+                                        the trust of our clients who ultimately benefit from our stringent quality
+                                        standards. <a href="">read more</a>
+                                    </p>
+                                </div>
+                                <!-- section title end -->
+                                <div class="row ">
+                                    <div class="image col-sm-4 res-575-mb-30">
+                                        <img class="img-fluid" src="{% static 'images/single-image02.jpg' %}" alt="single-image1">
+                                    </div>
+                                    <div class="img-desc col-sm-8">
+                                        <div class="img-title">
+                                            <h5>OUR MISSION </h5>
+                                        </div>
+                                        <p>To achieve total customer satisfaction by providing sincere and continuous
+                                            services to their focused needs, to develop and maintain customer friendly
+                                            solutions and to be a trust worthy business partner for mutual growth</p>
+                                        <!-- <a class="ttm-btn btn-inline ttm-icon-btn-left  ttm-btn-color-skincolor" href="oil-and-gas.html"><i class="ti-headphone"></i> GET SUPPORT!</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="separator mt-30 mb-30">
+                                <div class="sep-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+            </section>
+            <!--About Section End -->
+            <!--Service section -->
+            <section class="ttm-row service-section_2  ttm-bgcolor-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- section title -->
+                            <div class="section-title text-center clearfix">
+                                <h5>WHAT WE DO</h5>
+                                <h2>Factory Services For Your Business</h2>
+                            </div>
+                            <!-- section title end -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 res-991-mb-20">
+                            <div class="row ">
+                                <div class="col-sm-6">
+                                    <div class="featured-box style3">
+                                        <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <span>Trading</span>
+                                                <h5>Business Solutions</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 ">
+                                    <div class="featured-box style3 ">
+                                        <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                            <i class="fas fa-drafting-compass"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <span>Engineering & Contracting</span>
+                                                <h5>Infrastructure Development</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-30 res-575-mt-0">
+                                <div class="col-sm-6">
+                                    <div class="featured-box style3">
+                                        <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                            <i class="fas fa-cogs"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <span>Operation</span>
+                                                <h5>Process Optimization</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="featured-box style3 ">
+                                        <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                            <i class="fas fa-tools"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <span>Maintenance</span>
+                                                <h5>Comprehensive Services</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="col-bg-img-one ttm-col-bgimage-yes ttm-bg">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
+                                    <div class="ttm-bg-layer-inner"></div>
+                                </div>
+                                <div class="layer-content">
+                                    <!-- image-overlay-content -->
+                                    <div class="image-overlay-content">
+                                        <div class="rectangle-shape ttm-bottom-view-overlay ttm-bgcolor-white">
+                                            <p>Outsourcing IT infrastructure is a concept that has been around for a
+                                                while. Character ized in terms of technicians</p>
+                                            <a class="ttm-btn btn-inline ttm-btn-color-dark" href="{% url 'contact' %}">VIEW
+                                                SERVICES!</a>
+                                        </div>
+                                    </div>
+                                    <!-- image-overlay-content -->
+                                </div>
+                            </div>
+                            <img src="{% static 'images/bg-image/col-bgimg-01.png' %}" class="ttm-equal-height-image" alt="bg-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Service section end -->
+
+
+            <section class="ttm-row service-section_2 ttm-bgcolor-grey">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- section title -->
+                            <div class="section-title text-center clearfix">
+                                <h5>PRODUCTS</h5>
+                                <h2>OUR PRODUCTS</h2>
+                            </div>
+                            <!-- section title end -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-exchange-alt"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Welding Materials</h5>
+                                        <span>All kind of industrial welding equipment and accessories.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-drafting-compass"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Structural Steel</h5>
+                                        <span>Different grades of steel used for making construction materials in a
+                                            variety of shapes.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Building Materials</h5>
+                                        <span>various material which is used for industrial and residential construction
+                                            purposes</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Electricals</h5>
+                                        <span>Different elements used in the making of any electrical construction
+                                            project.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Conduit and Conduit Fitting</h5>
+                                        <span>Electrical conduits are metal, plastic or fiber pipes designed to protect
+                                            electrical cables and wires.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Test Instruments</h5>
+                                        <span>Equipment’s required for Practical electronics engineering and
+                                            assembly.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-wrench"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Hand Tools</h5>
+                                        <span>Categories of hand tools include wrenches, pliers, cutters, files,
+                                            striking tools, struck or hammered tools, screwdrivers, vises, clamps,
+                                            snips, saws, drills and knives.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Industrial Tools & Accessories</h5>
+                                        <span>Wide range of products for the metal cutting industry with a focus on
+                                            cutting tools and tooling accessories.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Fasteners & Hardware</h5>
+                                        <span>We carry variety of types and sizes of Fasteners in Inch and Metric sizes.
+                                            Anchors, Screws, Bolts, Nuts, Threaded Inserts, Fastener Kits.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Pipes and Fittings</h5>
+                                        <span>Different Grade Pipe and pipe fittings, flanges & valves for industrial
+                                            application.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-hard-hat"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Safety Products</h5>
+                                        <span>Supply of wide range industrial safety equipment’s like, Machinery Guards,
+                                            PPE, Two Way Radios, etc.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Fire Equipment’s</h5>
+                                        <span>Different device is designed specifically to deal with the different
+                                            classes of fire in a range of environments.- Fire Fighting
+                                            equipment’s</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Lifting equipment’s</h5>
+                                        <span>Various equipment’s for lifting and lowering loads, and includes
+                                            accessories- Lifting Equipment’s</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Ropes and Wires</h5>
+                                        <span>High quality heavy duty steel ropes for industrial applications Ropes and
+                                            Wire</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Hoses and Clips</h5>
+                                        <span>Supply of hose clamps and other industrial clamping products for
+                                            industrial application. Hose and clamps</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Cleaning equipment’s</h5>
+                                        <span>We can regularly service and maintain your machines, or you can simply
+                                            call when you need us. Cleaning equipment’s</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Tapes</h5>
+                                        <span>Supply of high-performance Adhesive Tapes and Adhesive products for
+                                            chemical and mechanical industries.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Chemicals</h5>
+                                        <span>Supply of various industrial paints and coating for different
+                                            purpose.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 p-0">
+                            <div class="featured-box style3 text-center">
+                                <div class="featured-icon icon-shape-square icon-bgcolor-grey">
+                                    <i class="fas fa-industry"></i>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h5>Packing Materials</h5>
+                                        <span>Various packing materials from paper and plastics.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- working-style section-->
+            <section class=" ttm-row working-section ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey bg-img7">
+                <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <!-- section-title -->
+                            <div class="section-title style2 clearfix">
+                                <h5> WORKING STYLE</h5>
+                                <h2 class="title">Our Business Working Process</h2>
+                                <p>We are one of leading company in manufacturing & petro chemical products. We makes
+                                    long-term investments goal industrial solutions.</p>
+                            </div><!-- section-title end -->
+                        </div>
+                    </div><!-- row end -->
+                    <!-- row -->
+                    <div class="row ttm-stepbox-wrapper ">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="ttm-stepsbox">
+                                        <div class="ttm-stepsbox-content">
+                                            <div class="ttm-stepsbox-icon">
+                                                <i class="fas fa-cogs"></i>
+                                            </div>
+                                            <div class="ttm-stepsbox-title">
+                                                <h5>Evaluation And Signing Of The Contract</h5>
+                                            </div>
+                                        </div>
+                                        <div class="ttm-stepnumber">
+                                            <div class="ttm-step-number">Step 1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="ttm-stepsbox">
+                                        <div class="ttm-stepsbox-content">
+                                            <div class="ttm-stepsbox-icon">
+                                                <i class="fas fa-industry"></i>
+                                            </div>
+                                            <div class="ttm-stepsbox-title">
+                                                <h5>Preparation Of The Work Plan.</h5>
+                                            </div>
+                                        </div>
+                                        <div class="ttm-stepnumber">
+                                            <div class="ttm-step-number">Step 2</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="ttm-stepsbox">
+                                        <div class="ttm-stepsbox-content">
+                                            <div class="ttm-stepsbox-icon">
+                                                <i class="fas fa-robot"></i>
+                                            </div>
+                                            <div class="ttm-stepsbox-title">
+                                                <h5>Implementation Of Quality Works</h5>
+                                            </div>
+                                        </div>
+                                        <div class="ttm-stepnumber">
+                                            <div class="ttm-step-number">Step 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="ttm-stepsbox">
+                                        <div class="ttm-stepsbox-content">
+                                            <div class="ttm-stepsbox-icon">
+                                                <i class="fas fa-hard-hat"></i> <!-- Worker Icon -->
+                                            </div>
+                                            <div class="ttm-stepsbox-title">
+                                                <h5>Delivering The Project To The Customer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="ttm-stepnumber">
+                                            <div class="ttm-step-number">Step 4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- row end -->
+                </div>
+            </section>
+            <!-- working-style section end -->
+            <!-- fid section -->
+            <section class="ttm-row fid-section ttm-bgcolor-grey clearfix">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-lg-6">
+                            <div class="pt-90 res-991-pt-0">
+                                <!-- section title -->
+                                <div class="section-title clearfix res-991-pl-15">
+                                    <h5>WHY AL IBRAHIM GROUP</h5>
+                                    <h2>We Are The Largest Independent</h2>
+                                </div>
+                                <!-- section title end -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div
+                                class="ttm-col-bgcolor-yes ttm-right-span ttm-bg ttm-bgcolor-skincolor pt-90 pl-40 pb-250 res-991-ptb-35">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="ttm-fid inside ttm-fid-with-icon ttm-fid-view-lefticon style3">
+                                            <div class="ttm-fid-icon-wrapper">
+                                                <i class="fas fa-industry"></i> <!-- Factory Icon -->
+                                            </div>
+                                            <div class="ttm-fid-content">
+                                                <h4 class="ttm-fid-inner">
+                                                    <span data-appear-animation="animateDigits" data-from="0"
+                                                        data-to="1430" data-interval="5" data-before=""
+                                                        data-before-style="sup" data-after="+" data-after-style="sub"
+                                                        class="numinate">1430</span>
+                                                </h4>
+                                                <p class="ttm-fid-title">Aoluptatem accus</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="ttm-fid inside ttm-fid-with-icon ttm-fid-view-lefticon style3">
+                                            <div class="ttm-fid-icon-wrapper">
+                                                <i class="fas fa-robot"></i>
+                                            </div>
+                                            <div class="ttm-fid-content">
+                                                <h4 class="ttm-fid-inner">
+                                                    <span data-appear-animation="animateDigits" data-from="0"
+                                                        data-to="125" data-interval="5" data-before=""
+                                                        data-before-style="sup" data-after="+" data-after-style="sub"
+                                                        class="numinate">125</span>
+                                                </h4>
+                                                <p class="ttm-fid-title">Production Center</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutters mt_230 res-991-mt-0">
+                        <div class="col-md-6 col-sm-12">
+                            <img class="img-fluid" src="{% static 'images/single-image03.jpg' %}" alt="single-image">
+                        </div>
+                        <div class="col-md-6 col-sm-12 box-shadow ttm-bgcolor-white">
+                            <div class="pl-40 pb-32 pt-55 pr-45 res-991-plr-15  res-991-ptb-20  ">
+                                <!-- section-title -->
+                                <div class="section-title clearfix">
+                                    <h3 class="title">We are one of leading company in manufacturing
+                                        and petro chemical products.</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus ntium
+                                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                        veritatis et quasi architecto</p>
+                                </div><!-- section-title end -->
+                                <div class="pt-2">
+                                    <!-- ttm-progress-bar -->
+                                    <div class="ttm-progress-bar style1 clearfix">
+                                        <h4>Petrolium Refinery</h4>
+                                        <div class="progress" data-value="85%">
+                                            <div class="progress-bar progress-bar-skincolor " style="width: 85%;">
+                                                <div class="progress-parcent"><span>90</span>%</div>
+                                            </div>
+                                        </div>
+                                    </div><!-- section title end -->
+                                    <!-- ttm-progress-bar -->
+                                    <div class="ttm-progress-bar clearfix">
+                                        <h4>Production</h4>
+                                        <div class="progress" data-value="70%">
+                                            <div class="progress-bar progress-bar-skincolor" style="width: 70%;">
+                                                <div class="progress-parcent"><span>80</span>%</div>
+                                            </div>
+                                        </div>
+                                    </div><!-- ttm-progress-bar end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- post-slide end -->
+    </div>
+    <!-- row end-->
+
+    </div>
+    <!--site-main end-->
+    <!--footer start-->
+    <footer class="footer widget-footer  clearfix">
+        <div class="first-footer ttm-bgcolor-darkgrey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 widget-area">
+                        <div class="widget widget-out-link clearfix">
+                            <i class="fa fa-phone"></i>
+                            <h3 class="widget-title">Have a question? call us now</h3>
+                            <p>Office 1: +966 551393901</p>
+                            <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 widget-area">
+                        <div class="widget widget-out-link clearfix">
+                            <i class="fa fa-envelope-o"></i>
+                            <h3 class="widget-title">Need support? Drop us an email</h3>
+                            <p>info@alibrahimgroups.com</p>
+                            <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Fill Our Form</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-sm-12 col-lg-4 widget-area">
+                        <div class="widget widget-out-link clearfix">
+                            <i class="fa fa-clock-o"></i>
+                            <h3 class="widget-title">We are open on</h3>
+                            <p>Mon – Sat 07:00 – 21:00<br>Sunday – Closed</p>
+                            <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+        </div>
+        <div class="second-footer ttm-textcolor-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                        <div class="widget style2 widget-out-link clearfix">
+                            <div class="footer-logo">
+                                <img id="footer-logo-img" class="img-center" src="{% static 'images/logo-1.png' %}" alt="">
+                            </div>
+                            <br>
+                            <div class="mb-15">Alibrahimgroups has a team of qualified, well-experienced technical and
+                                sales staff, capable of providing required technical guidance and economical solutions
+                                and offer the best after-sales services...</div>
+                            <div class="mb-15">Alibrahimgroups provides the highest quality of service, thus building a
+                                good work relationship with each individual customer. Our philosophy is to create value
+                                for our customers by offering them the best materials</div>
+                            <ul class="widget-contact mt-25">
+                                <li><i class="fas fa-mobile"></i>+966 551393901</li>
+                                <li><i class="fas fa-comment"></i><a href="#">info@alibrahimgroups.com</a></li>
+                                <li><i class="fas fa-location-pin"></i>7686-Jazan 82733 - 4282 Kingdom of Saudi Arabia
+                                </li>
+                            </ul>
+                            <div class="social-icons social-hover mt-15">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="https://facebook.com" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://twitter.com" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://linkedin.com" target="_blank">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.google.com/" target="_blank">
+                                            <i class="fab fa-google"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                        <div class="widget style2 widget-out-link clearfix">
+                            <h3 class="widget-title">Our Services</h3>
+                            <ul id="menu-footer-services">
+                                <li><a href="#">Trading</a></li>
+                                <li><a href="#">Engineering & Contracting</a></li>
+                                <li><a href="#">Operation & Maintenance</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget style2 widget-out-link clearfix">
+                            <h3 class="widget-title">Newsletter</h3>
+                            <p>Subscribe to our newsletter to receive latest news<br>on our services.</p>
+                            <form id="subscribe-form" method="post" action="#" data-mailchimp="true">
+                                <div class="mailchimp-inputbox clearfix" id="subscribe-content">
+                                    <p>
+                                        <i class="fa fa-envelope-o"></i>
+                                        <input type="email" name="email" placeholder="Email Addess.." required="">
+                                    </p>
+                                    <p><button class="form-btn" type="submit" title="Send" value="Send">Join</button>
+                                    </p>
+                                </div>
+                                <div id="subscribe-msg"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer-text ttm-bottom-footer-text ttm-bgcolor-darkgrey ttm-textcolor-white">
+            <div class="container">
+                <div class="row copyright">
+                    <div class="col-lg-12">
+                        <div class=" ttm-footer2-center">
+                            <span>Copyright © 2025&nbsp;<a href="#">Al Ibrahim Groups</a> All rights reserved.</span>
+                        </div>
+                        <ul id="menu-footer-menu" class="footer-nav-menu">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Supplier</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- page end -->
+    <!-- Javascript -->
+    <script src=" {% static 'js/jquery-3.6.0.min.js' %}"></script>
+    <script src=" {% static 'js/jquery-migrate-1.4.1.min.js' %}"></script>
+    <script src=" {% static 'js/tether.min.js' %}"></script>
+    <script src=" {% static 'js/bootstrap.min.js' %}"></script>
+    <script src=" {% static 'js/color-switcher.js' %}"></script>
+    <script src=" {% static 'js/jquery.easing.js' %}"></script>
+    <script src=" {% static 'js/jquery-waypoints.js' %}"></script>
+    <script src=" {% static 'js/jquery-validate.js' %}"></script>
+    <script src=" {% static 'js/owl.carousel.min.js' %}"></script>
+    <script src=" {% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <script src=" {% static 'js/numinate.min.js' %}"></script>
+    <script src=" {% static 'js/circle-progress.min.js' %}"></script>
+    <script src=" {% static 'js/main.js' %}"></script>
+    <!-- Revolution Slider -->
+    <script src="{% static 'revolution/js/slider.js' %}"></script>
+    <!-- SLIDER REVOLUTION 6.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="{% static 'revolution/js/rbtools.min.js' %}"></script>
+    <script src="{% static 'revolution/js/rs6.min.js' %}"></script>
+    <!-- Javascript end-->
+</body>
+
+</html>

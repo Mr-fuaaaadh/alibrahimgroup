@@ -1,0 +1,502 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Al Ibrahim Groups - Industry & Factory " />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Al Ibrahim Groups</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.min.css' %}">
+    <!-- scrollbar -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/perfect-scrollbar.min.css' %}">
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.css' %}" />
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/themify-icons.css' %}" />
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/flaticon.css' %}" />
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prettyPhoto.css' %}">
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/shortcodes.css' %}" />
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+    <!--Color Switcher Mockup-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/color-switcher.css' %}">
+    <!--Color Themes-->
+    <link id="switcher-color" href="{% static 'css/colors/theme-color1.css' %}" rel="stylesheet">
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@2.40.0/iconfont/tabler-icons.min.css">
+
+</head>
+
+<body>
+    <!--page start-->
+    <div class="page">
+        <!--header start-->
+        <header id="masthead" class="header ttm-header-style-infostack">
+            <div class="container">
+                <div class="ttm-header-top-wrapper clearfix">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="header-icon-box">
+                                <div class="icon-box">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="title-box">
+                                    <p>Call Us On:</p>
+                                    <h4>+966 551393901 </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="site-branding">
+                                <a class="home-link" href="{% url 'home' %}" title="Al Ibrahim Group" rel="home">
+                                    <img id="logo-img" class="img-center" src="{% static 'images/logo-1.png' %}"
+                                        alt="logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="header-icon-box float-right">
+                                <div class="icon-box">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="title-box">
+                                    <p>Email</p>
+                                    <h4> info@alibrahimgroups.com</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ttm-stickable-header-w -->
+                <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
+                    <div id="site-header-menu" class="site-header-menu">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <!-- container -->
+                            <div class="container">
+                                <!--site-navigation -->
+                                <div id="site-navigation" class="site-navigation">
+                                    <div class="ttm-menu-toggle">
+                                        <input type="checkbox" id="menu-toggle-form" />
+                                        <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                            <span class="toggle-block toggle-blocks-1"></span>
+                                            <span class="toggle-block toggle-blocks-2"></span>
+                                            <span class="toggle-block toggle-blocks-3"></span>
+                                        </label>
+                                    </div>
+                                    <nav id="menu" class="menu">
+                                        <ul class="dropdown">
+                                            <li class="active"><a href="{% url 'home' %}">
+                                                    Home</a>
+                                            </li>
+                                            <li class="active"><a href="{% url 'services' %}">
+                                                    service</a>
+                                            </li>
+                                            <li><a href="{% url 'contact' %}">
+                                                    Contact us</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="ttm-rt-contact">
+                                    <div class="ttm-header-icons ">
+                                        <div class="ttm-header-icon ttm-header-search-link">
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                            <div class="ttm-search-overlay">
+                                                <form method="get" class="ttm-site-searchform" action="#">
+                                                    <div class="w-search-form-h">
+                                                        <div class="w-search-form-row">
+                                                            <div class="w-search-input">
+                                                                <input type="search" class="field searchform-s" name="s"
+                                                                    placeholder="Type Word Then Enter...">
+                                                                <button type="submit">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ttm-custombutton">
+                                        <a href="{% url 'contact' %}">GET CONSULTING!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+        <!-- page-title -->
+        <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ttm-page-title-row-inner">
+                            <div class="page-title-heading">
+                                <h2 class="title">Contact Us</h2>
+                            </div>
+                            <div class="breadcrumb-wrapper">
+                                <span>
+                                    <i class="fas fa-home"></i>
+                                    <a title="Homepage" href="{% url 'home' %}">Home</a>
+                                </span>
+                                <span class="ttm-bread-sep"> &nbsp; – &nbsp;</span>
+                                <span class="ttm-page-title">Contact Us</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page-title end -->
+        <!--site-main start-->
+        <div class="site-main">
+            <!--intro-section-->
+            <section class="ttm-row break-991-colum bg-layer res-991-p-0 clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="ttm-col-bgcolor-yes ttm-bg ttm-bgcolor-darkgrey padding-4">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                <div class="layer-content row m-0">
+                                    <div class="col-md-10">
+                                        <!-- section title -->
+                                        <div class="section-title clearfix">
+                                            <h2 class="text-white">Send Us a Message!</h2>
+                                        </div>
+                                        <!-- section title end -->
+                                        <p>Please fill out the request for quote form below and our expert team will get
+                                            back to you shortly.</p>
+                                        <form id="contactform" class="contactform style2 wrap-form clearfix"
+                                            method="post" action="" novalidate="novalidate">
+                                            {% csrf_token %}
+                                            <label>
+                                                <i class="fas fa-user"></i>
+                                                <span class="ttm-form-control">
+                                                    <input class="text-input" name="name" type="text"
+                                                        placeholder="Your Name:*" required>
+                                                </span>
+                                            </label>
+                                            <label>
+                                                <i class="fas fa-envelope"></i>
+                                                <span class="ttm-form-control">
+                                                    <input class="text-input" name="email" type="email"
+                                                        placeholder="Your Email:*" required>
+                                                </span>
+                                            </label>
+                                            <label>
+                                                <i class="fas fa-phone"></i>
+                                                <span class="ttm-form-control">
+                                                    <input class="text-input" name="phone" type="tel"
+                                                        placeholder="Your Number:*" required>
+                                                </span>
+                                            </label>
+                                            <label>
+                                                <i class="fas fa-comment"></i>
+                                                <span class="ttm-form-control">
+                                                    <textarea class="text-area" name="message"
+                                                        placeholder="Your Message:*" required></textarea>
+                                                </span>
+                                            </label>
+                                            <input name="submit" type="submit" value="Submit Now!"
+                                                class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white"
+                                                id="submit" title="Submit now" />
+                                        </form>
+
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <!-- testimonial-box -->
+                            <div
+                                class="ttm-col-bgcolor-yes ttm-bg ttm-bgcolor-skincolor padding-5 ml_170 res-991-ml-0 mt-100 res-991-mt-0">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                <div class="layer-content">
+                                    <div class="col-title style2">
+                                        <h2 class="ttm-textcolor-white ">
+                                            Drop in our office
+                                        </h2>
+                                    </div>
+                                    <!--featured-box-->
+                                    <div class="featured-box style9 left-icon">
+                                        <div class="featured-icon icon-white">
+                                            <i class="fas fa-mobile"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h5>Phone</h5>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>+1800 200 133</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-box end-->
+                                    <!--featured-box-->
+                                    <div class="featured-box style9 left-icon">
+                                        <div class="featured-icon icon-white">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h5>Email</h5>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>info@example.com</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-box end-->
+                                    <!--featured-box-->
+                                    <div class="featured-box style9 left-icon">
+                                        <div class="featured-icon icon-white">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h5>Location</h5>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>1010 Avenue of the Moon, 12 New York, NY 10018 US.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-box end-->
+                                    <!--featured-box-->
+                                    <div class="featured-box style9 left-icon">
+                                        <div class="featured-icon icon-white">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h5>Location 2</h5>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Envato HQ 24 Fifth st., Los Angeles, USA</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-box end-->
+                                    <div class="social-icons circle social-hover mb-35 res-991-mb-0">
+                                        <ul class="list-inline">
+                                            <li class="social-facebook"><a class="tooltip-top" target="_blank"
+                                                    href="https://www.facebook.com/preyantechnosys19"
+                                                    data-tooltip="Facebook"><i class="fab fa-facebook"
+                                                        aria-hidden="true"></i></a></li>
+                                            <li class="social-twitter"><a class="tooltip-top" target="_blank"
+                                                    href="https://twitter.com/PreyanTechnosys" data-tooltip="Twitter"><i
+                                                        class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li class="social-gplus"><a class=" tooltip-top" target="_blank"
+                                                    href="https://in.pinterest.com/preyan_technosys/"
+                                                    data-tooltip="Pinterest"><i class="fab fa-pinterest-p"
+                                                        aria-hidden="true"></i></a></li>
+                                            <li class="social-linkedin"><a class=" tooltip-top" target="_blank"
+                                                    href="https://www.linkedin.com/in/preyan-technosys-pvt-ltd/"
+                                                    data-tooltip="LinkedIn"><i class="fab fa-linkedin-in"
+                                                        aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- row end -->
+                </div>
+            </section>
+            <!-- intro-section end -->
+            <div class="map-wrapper">
+                <div id="map_canvas"></div>
+            </div>
+        </div>
+        <!--site-main end-->
+        <!--footer start-->
+        <footer class="footer widget-footer  clearfix">
+            <div class="first-footer ttm-bgcolor-darkgrey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4 widget-area">
+                            <div class="widget widget-out-link clearfix">
+                                <i class="fa fa-phone"></i>
+                                <h3 class="widget-title">Have a question? call us now</h3>
+                                <p>Office 1: +966 551393901</p>
+                                <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 widget-area">
+                            <div class="widget widget-out-link clearfix">
+                                <i class="fa fa-envelope-o"></i>
+                                <h3 class="widget-title">Need support? Drop us an email</h3>
+                                <p>info@alibrahimgroups.com</p>
+                                <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Fill Our Form</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-sm-12 col-lg-4 widget-area">
+                            <div class="widget widget-out-link clearfix">
+                                <i class="fa fa-clock-o"></i>
+                                <h3 class="widget-title">We are open on</h3>
+                                <p>Mon – Sat 07:00 – 21:00<br>Sunday – Closed</p>
+                                <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+            </div>
+            <div class="second-footer ttm-textcolor-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                            <div class="widget style2 widget-out-link clearfix">
+                                <div class="footer-logo">
+                                    <img id="footer-logo-img" class="img-center" src="{% static 'images/logo-1.png' %}"
+                                        alt="">
+                                </div>
+                                <br>
+                                <div class="mb-15">Alibrahimgroups has a team of qualified, well-experienced technical
+                                    and
+                                    sales staff, capable of providing required technical guidance and economical
+                                    solutions
+                                    and offer the best after-sales services...</div>
+                                <div class="mb-15">Alibrahimgroups provides the highest quality of service, thus
+                                    building a
+                                    good work relationship with each individual customer. Our philosophy is to create
+                                    value
+                                    for our customers by offering them the best materials</div>
+                                <ul class="widget-contact mt-25">
+                                    <li><i class="fas fa-mobile"></i>+966 551393901</li>
+                                    <li><i class="fas fa-comment"></i><a href="#">info@alibrahimgroups.com</a></li>
+                                    <li><i class="fas fa-location-pin"></i>7686-Jazan 82733 - 4282 Kingdom of Saudi
+                                        Arabia
+                                    </li>
+                                </ul>
+                                <div class="social-icons social-hover mt-15">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://twitter.com" target="_blank">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://linkedin.com" target="_blank">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="https://www.google.com/" target="_blank">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                            <div class="widget style2 widget-out-link clearfix">
+                                <h3 class="widget-title">Our Services</h3>
+                                <ul id="menu-footer-services">
+                                    <li><a href="#">Trading</a></li>
+                                    <li><a href="#">Engineering & Contracting</a></li>
+                                    <li><a href="#">Operation & Maintenance</a></li>
+                                </ul>
+                            </div>
+                            <div class="widget style2 widget-out-link clearfix">
+                                <h3 class="widget-title">Newsletter</h3>
+                                <p>Subscribe to our newsletter to receive latest news<br>on our services.</p>
+                                <form id="subscribe-form" method="post" action="#" data-mailchimp="true">
+                                    <div class="mailchimp-inputbox clearfix" id="subscribe-content">
+                                        <p>
+                                            <i class="fa fa-envelope-o"></i>
+                                            <input type="email" name="email" placeholder="Email Addess.." required="">
+                                        </p>
+                                        <p><button class="form-btn" type="submit" title="Send"
+                                                value="Send">Join</button>
+                                        </p>
+                                    </div>
+                                    <div id="subscribe-msg"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer-text ttm-bottom-footer-text ttm-bgcolor-darkgrey ttm-textcolor-white">
+                <div class="container">
+                    <div class="row copyright">
+                        <div class="col-lg-12">
+                            <div class=" ttm-footer2-center">
+                                <span>Copyright © 2025&nbsp;<a href="#">Al Ibrahim Groups</a> All rights
+                                    reserved.</span>
+                            </div>
+                            <ul id="menu-footer-menu" class="footer-nav-menu">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Supplier</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- page end -->
+    <!-- Javascript -->
+    <script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-1.4.1.min.js' %}"></script>
+    <script src="{% static 'js/tether.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/color-switcher.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.js' %}"></script>
+    <script src="{% static 'js/jquery-waypoints.js' %}"></script>
+    <script src="{% static 'js/jquery-validate.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <script src="{% static 'js/numinate.min.js' %}"></script>
+    <script src="{% static 'js/circle-progress.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    <!-- Javascript  End-->
+    <script src="https://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+    <!-- Javascript end-->
+    <script type="text/javascript">
+        function initialize() {
+            var latlng = new google.maps.LatLng(-34.397, 150.644);
+            var myOptions = {
+                zoom: 8,
+                center: latlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map_canvas"),
+                myOptions);
+        }
+        google.maps.event.addDomListener(window, "load", initialize);
+    </script>
+    <!-- Javascript end-->
+</body>
+
+</html>

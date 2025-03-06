@@ -1,0 +1,254 @@
+/**
+  1. Color
+  2. Background-Color
+  3. Border-color
+**/
+
+
+/* ===============================================
+    Color
+------------------------*/
+a,
+button,
+input,
+a:hover,
+.ttm-textcolor-skincolor,
+.tp-caption span.ttm-textcolor-skincolor,
+a.tp-caption.simple-text-button:hover,
+a.tp-caption.tm-simple-link:hover,
+.tp-caption strong,
+.featured-imagebox-team.style1:hover .featured-title h5 a,
+.ttm-textcolor-white a:hover,
+#site-header-menu #site-navigation .menu ul.sub-menu li > a:hover,
+ul li .icon-box.icon-style-border i,
+#site-header-menu #site-navigation .menu > ul,
+.menu ul li > ul li a:before,
+.row-title h2.title strong,
+.col-title h2.title strong,
+.col-title .title-icon,
+.ttm-bgcolor-darkgrey .ttm-fid-contents h4,
+.ttm-bgcolor-darkgrey .section-title.style1 h5,
+.ttm-bgcolor-darkgrey .featured-title.ttm-textcolor-skincolor h5,
+.ttm-bgcolor-darkgrey .col-title h2.title strong,
+.ttm-bgcolor-darkgrey.first-footer .widget .widget-title,
+footer a:hover,
+.ttm-textcolor-white a:hover,
+.ttm-btn.ttm-btn-color-white.btn-inline:hover,
+.ttm-btn.ttm-btn-color-white.btn-inline:hover i,
+.ttm-btn.btn-inline.style2:hover,
+.post .post-desc .ttm-btn:hover.btn-inline,
+.title-box-only h2 strong.ttm-strongcolor-skincolor,
+.ttm-team-list-title i,
+.ttm-bgcolor-darkgrey > .featured-box .featured-icon i,
+.ttm-bgcolor-grey > .featured-box .featured-icon i,
+.featured-box .featured-icon i,
+.ttm-bgcolor-white .featured-box .featured-icon i,
+.featured-box .featured-icon.icon-shape-square.icon-bgcolor-grey i,
+.featured-iconbox a:hover i,
+ul.features-list li:before,
+.title-box .breadcrumb-wrapper span:last-child,
+.content-post.content-team-post p.category,
+.featured-item.ttm-portfolio-view-topimage .content-post .category a:hover,
+.ttm-bgcolor-darkgrey .contactform.style2 label i,
+.sidebar .widget .widget-title:before,
+.featured-title.ttm-textcolor-skincolor h5,
+#site-header-menu #site-navigation > ul > li.active > a,
+#site-header-menu #site-navigation .menu ul.dropdown > li.active > a,
+#site-header-menu #site-navigation .menu ul.sub-menu > li.active > a,
+#site-header-menu #site-navigation > ul > li:hover > a,
+#site-header-menu #site-navigation .menu ul > li:hover > a,
+.ttm-header-icons .ttm-header-search-link a:hover,
+.widget.widget-download i,
+.sidebar-right.sidebar .widget ul.rating>li,
+.products .star-ratings ul li,
+article.post blockquote:before,
+.featured-box .featured-icon.icon-overlay-content-square.icon-bgcolor-grey i,
+.products .price .product-Price-amount,
+.post .post-desc h5 a:hover,
+.widget-contact li i,
+.ttm-fid.style2 .ttm-fid-icon-wrapper i,
+.sidebar .widget a:hover,
+.ttm-fid.style3 .ttm-fid-contents h4.tm-fid-inner span,
+.ttm-team-member-single-position,
+.ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border,
+.ttm-bgcolor-darkgrey .section-title h5,
+.section-title h5,
+.ttm-tabs.style3 .content-tab ul.ttm-list li i,
+.post .post-desc.style4 a.ttm-btn:hover.btn-inline,
+.ttm-stepnumber .ttm-step-number,
+section.error-404 .ttm-big-icon,
+.featured-imagebox-team ul.social-icons li:hover a,
+.ttm-stepsbox .ttm-stepsbox-icon i,a.ttm-btn.btn-inline:hover.ttm-btn-color-dark,
+.ttm-page-title-row-inner .breadcrumb-wrapper span.ttm-page-title,
+.ttm-header-style-infostack .header-icon-box .icon-box i,.ttm-list-icon-color-skincolor,
+.ttm-header-style-infostack .ttm-custombutton a:hover
+{
+    color: #fd972e;
+}
+
+
+/* ===============================================
+    Background-Color
+------------------------*/
+.ttm-bgcolor-skincolor,
+.tp-caption.tp-overlay-content,
+.highlight-skin-button,
+a.highlight-skin-button,
+.tp-caption.video-icon,
+.video-icon,
+.tp-caption.tp-shape.tp-shapewrapper,
+.tp-caption.tp-overlay-content.tp-shapewrapper,
+.top-contact.ttm-highlight:after,
+.tp-caption.big-blue-button:hover,
+.big-blue-button:hover,
+#site-navigation .menu ul.dropdown > li > a:before,
+#site-header-menu #site-navigation .menu ul li a span,
+.featured-box.style10 .featured-icon.icon-overlay-content-square i,
+.ttm-progress-bar .progress .progress-bar,
+.testimonials .testimonial-content.ttm-bgcolor-white .testimonial-caption:after,
+.post-image-icon i,
+.mailchimp-inputbox button[type="submit"],
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+footer .widget.style2 .widget-title:after,
+#totop,
+.ttm-fid.style1:before,
+.featured-box.style11:hover .ttm-box-image:before,
+.ttm-search-overlay .ttm-site-searchform button,
+.accordion .toggle:not(.ttm-toggle-title-bgcolor-grey):not(.toggle-style-border).active .toggle-title,
+.ttm-bgcolor-skincolor > .ttm-bg-layer,
+.timeline .timeline-body h3:after,
+.ttm-tabs ul.tabs li.active a,
+.ttm-tabs ul.tabs li:hover a,
+.ttm-tabs.element-tab-style-horizontal ul.tabs li a:hover,
+.ttm-tabs.element-tab-style-horizontal ul.tabs li.active a,
+.featured-iconbox a i,
+.featured-box .featured-icon.icon-shape-square i,
+.featured-portfolio-item .content-post.content-portfolio-post,
+.pricing-plan.pricing-recommended-plan .pricing-title,
+.pricing-plan.pricing-recommended-plan .pricing-head,
+.timeline .timeline-year,.testimonial-slide3 span,
+.accordion .toggle.ttm-style-classic.active:not(.ttm-toggle-title-bgcolor-grey):not(.toggle-style-border) .toggle-title,
+.title-box .page-title-heading .title:before,#site-navigation .menu ul.dropdown > li > a:before,
+.content-post.content-team-post .ttm-social-links-wrapper ul li a:hover,
+.widget.widget-nav-menu ul li.active a,.featured-imagebox-team ul.social-icons li:hover a,
+.widget.widget-nav-menu ul li:hover a,.page-title-heading:before,.featured-imagebox-team ul.social-icons li:hover a,
+.social-icons.circle li>a:not(.tooltip-top):hover,.owl-theme .owl-controls .owl-nav div,.ttm-team-member-single-content .ttm-social-links-wrapper ul li a:hover,.sidebar .widget .tagcloud a:hover,.ttm-pagination .page-numbers.current,.ttm-pagination .page-numbers:hover,.ttm-custombutton.ttm-btn-bgcolor-skincolor,.ttm-header-icons .ttm-header-cart-link span.number-cart,ul.products li.product .onsale,ul.products li.product .ttm-shop-icon a:hover,.product button.cart_button:hover,.ttm-tabs ul.tabs li.active,.sidebar-right .product-list-widget .price ins,.ttm-video-btn .ttm-btn-play,.comment-list a.comment-reply-link:hover,.accordion .toggle.toggle-style-border.toggle-square .toggle-title:after,.accordion .toggle.toggle-style-border.toggle-square .toggle-title:before,.ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border:hover,.ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-fill,a.checkout-button:hover,.coupon button:hover,.ttm-icon_element-bgcolor-skincolor,.ttm-bgcolor-skincolor > .ttm-bg-layer > .ttm-bg-layer-inner,.ttm-cart-form button:hover,.place-order button:hover,.pricing-plan.style4.active .pricing-title,.ttm-box-post-date,.featured-imagebox.featured-imagebox-team.style2 .featured-content:before,.col-title.style1,rs-layer#slider-1-slide-1-layer-2,a#slider-1-slide-1-layer-0,a#slider-1-slide-1-layer-15,.testimonials.style1 .testimonial-content .testimonial-info 
+.testimonial-caption:after,.col-title.style1 h2.title:before,.section-title h2:after,.color-trigger,.ttm-tabs.style3 ul.tabs li.tab.active,.featured-box.style1 .featured-num:after,.post .post-desc.style2 .post-category a,.post:hover .post-desc.style2 .post-btn,.ttm-header-style-infostack .ttm-custombutton a,.ttm-stepsbox:before,.featured-box:hover.style3
+{
+    background-color: #fd972e;
+}
+
+rs-layer#slider-1-slide-1-layer-1 {
+    background-color: #fd972e;
+}
+
+a#slider-1-slide-1-layer-4 {
+    background-color: #fd972e!important;
+    border-color: #fd972e!important;
+    color: fff!important;
+}
+
+a:hover#slider-1-slide-1-layer-4 {
+    background-color: #fff!important;
+    color: #fd972e!important;
+    border-color: #fff !important;
+}
+
+rs-layer#slider-1-slide-3-layer-1 {
+    background-color: #fd972e;
+}
+
+a#slider-1-slide-3-layer-4 {
+    border-color: #fd972e!important;
+    background-color: #fd972e!important;
+    color: fff!important;
+}
+
+a:hover#slider-1-slide-3-layer-4 {
+    background-color: #fff!important;
+    color: #fd972e!important ;
+    border-color: #fff!important;
+}
+
+
+a:hover#slider-1-slide-3-layer-14 {
+    background-color: #fff!important;
+    color: #fd972e!important;
+
+}
+
+.ttm-video-btn:hover .ttm-btn-play{ background-color: rgba(253, 151, 46, 0.95); }
+ a.highlight-skin-button:hover{ background-color: rgba(253, 151, 46, 0.65); color: #fff; }
+
+
+
+/* ===============================================
+    Border-Color
+------------------------*/
+.highlight-skin-button,
+a.tp-caption,
+.featured-box.style2:hover,
+.ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border,
+.wrap-form .text-input input:focus,
+.wrap-form .text-input button:focus,
+.wrap-form .text-input textarea:focus,
+.ttm-tabs ul.tabs li:hover a,
+.ttm-pagination .page-numbers:hover,
+.ttm-pagination .page-numbers.current,
+.comment-list a.comment-reply-link:hover,
+.ttm-btn.ttm-btn-color-skincolor.ttm-btn-style-border
+.sidebar .widget .widget-title:before,
+.ttm-tabs.style2 ul.tabs li.active a,
+.ttm-bgcolor-darkgrey .contactform.style2 .text-input:focus,
+.ttm-bgcolor-darkgrey .contactform.style2 .text-area:focus,
+.ttm-bgcolor-skincolor .contactform.style2 .text-input:focus,
+.ttm-bgcolor-skincolor .contactform.style2 .text-area:focus,
+.sidebar .widget .widget-title:before,
+.ttm-search-overlay,
+.featured-imagebox-team.style1 .featured-content .category:after,
+.ttm-tabs.ttm-tabs.style4 ul.tabs:before,
+.featured-box .featured-icon.icon-shape-square.ttm-icon_element-border i,
+.ttm-video-btn .ttm-btn-play,
+.ttm-btn-play:after,
+.ttm-btn-play:before
+{
+    border-color: #fd972e ;
+
+}
+.comment-form textarea:focus,
+.comment-form input[type="text"]:focus, 
+.comment-form input[type="email"]:focus, 
+.comment-form input[type="url"]:focus,
+.heading-seperator:after,
+.ttm-search-overlay .w-search-form-row:before {
+    border-bottom-color: #fd972e ;
+}
+.ttm-search-overlay{
+  border-top-color: #fd972e!important;
+}
+.featured-portfolio-item .content-post.content-portfolio-post:before {
+    border-color: transparent transparent #fd972e transparent;
+}
+
+.tp-caption.tp-shape.tp-shapewrapper{ background-color: rgba(253, 151, 46, 0.8) ; border-color: rgba(253, 151, 46, 0.6);}
+.tp-caption.ttm_prettyphoto:hover{ background-color: rgba(253, 151, 46, 0.6);}
+
+
+.ttm-tabs.style3 ul.tabs li.tab.active a:after {
+    border-top: 14px solid #fd972e;
+}
+
+.featured-imagebox.featured-imagebox-team.style2 .featured-content {
+    border-bottom: 3px solid #fd972e;
+}
+
+#site-header-menu #site-navigation .menu ul ul {
+    border-top-color: #fd972e;
+}
+
+.image-overlay-content .rectangle-shape {
+    border-left-color: #fd972e;
+}
