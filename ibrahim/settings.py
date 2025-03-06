@@ -131,11 +131,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "mail.alibrahimgroups.com"  # Use "mail." prefix for most hosting services
-EMAIL_PORT = 587  # Use 587 for TLS, or 465 for SSL
-EMAIL_USE_TLS = True  # Enable TLS (Recommended)
-EMAIL_USE_SSL = False  # Set to False if using TLS
+EMAIL_HOST = "sg2plzcpnl462836.prod.sin2.secureserver.net"  # Correct SMTP host
+EMAIL_PORT = 465  # Use 465 for SSL
+EMAIL_USE_SSL = True  # Enable SSL
+EMAIL_USE_TLS = False  # Disable TLS (because SSL is being used)
 EMAIL_HOST_USER = "sales@alibrahimgroups.com"
-EMAIL_HOST_PASSWORD = "alibrahim123@#"  # Keep this secret!
+EMAIL_HOST_PASSWORD = "alibrahim123@#"  # Replace with actual password
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-

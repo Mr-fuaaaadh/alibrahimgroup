@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.core.mail import send_mail
 from django.shortcuts import render
 from django.http import JsonResponse
@@ -36,7 +36,7 @@ def contact(request):
                 fail_silently=False,
             )
 
-            return JsonResponse({"success": "Your message has been sent successfully!"}, status=200)
+            return redirect(success)
 
         except smtplib.SMTPException as smtp_error:
             print(f"SMTP error occurred: {smtp_error}")
@@ -50,3 +50,6 @@ def contact(request):
 
 def services(request):
     return render(request, 'services.html')
+
+def success(request):
+    return render(request, 'success.html')
